@@ -18,4 +18,4 @@ Create a web dashboard, displaying the result of different causal analysis
 
 ## Architecture
 
-![arch](assets\architecture.png)
+![arch](assets/architecture.png)
