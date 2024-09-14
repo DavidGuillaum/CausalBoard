@@ -7,7 +7,7 @@ Create a web dashboard, displaying the result of different causal analysis
 
 - Python 3.12
 
-## Funcitonalities
+## Functionalities
 - Input place to download the data to be analyzed
 - Selector for the different type of causal analysis
     - SCM
@@ -19,3 +19,10 @@ Create a web dashboard, displaying the result of different causal analysis
 ## Architecture
 
 ![arch](assets/architecture.png)
+
+
+## To do
+- Streamlit app
+- DB
+- Fast API
+- Docker
