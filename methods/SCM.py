@@ -55,4 +55,5 @@ def analyse(df: pd.DataFrame, treated: str, treatment_year: int):
     treated = df[treated]
     sc = pd.concat([y_pre_co.dot(model.w_), y0_tr_hat])
     result = pd.DataFrame({ "Treated" : treated, "Synthetic Control" : sc})
+    print(result)
     return sc, result, att, df_weights

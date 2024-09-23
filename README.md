@@ -6,6 +6,11 @@ Create a web dashboard, displaying the result of different causal analysis
 ### Prerequisites
 
 - Python 3.12
+- scikit-learn
+- matplotlib.pyplot
+- seaborn
+- pandas
+- cvxpy
 
 ## Functionalities
 - Input place to download the data to be analyzed

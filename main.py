@@ -78,11 +78,13 @@ with st.sidebar:
     else:
         st.write("No file uploaded.")
 
+
 # Function to plot data and add vertical line
 def plot_data(result, treatment_year=None):
     plt.figure(figsize=(10, 5))
     # Plot two lines, one for each column
-    sns.lineplot(x=result.index, y=result['Treated'], label=f"Treated: {treated}")
+
+    sns.lineplot(x=result.index, y=result["Treated"], label=f"Treated: {treated}")
     sns.lineplot(x=result.index, y=result['Synthetic Control'], label='Synthetic Control')
 
     # Add labels and a legend
