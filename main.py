@@ -36,7 +36,7 @@ with st.sidebar:
 
 
     st.text("The CSV file must have the first column \n as the unit and the rest of columns as years,\n like on the picture below.")
-    st.image("assets\example.png", caption="Your csv file should have a similar format", use_column_width=True)
+    st.image("assets/example.png", caption="Your csv file should have a similar format", use_column_width=True)
 
     #selector for the separator
     options = [";", ","]
