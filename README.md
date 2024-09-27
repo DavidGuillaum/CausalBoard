@@ -27,7 +27,7 @@ Create a web dashboard, displaying the result of different causal analysis
 
 
 ## To do
-- Streamlit app
+- Placebo test
 - DB
 - Fast API
 - Docker
